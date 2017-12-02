@@ -1,0 +1,30 @@
+{
+  "customers": [
+    {
+    "id": "1",
+    "name": "John Doe",
+    "email": "jdoe@gmail.com",
+    "age": "35"
+  }, {
+    "id": "2",
+    "name": "Steve Smith",
+    "email": "steve@gmail.com",
+    "age": "25"
+  }, {
+    "id": "3",
+    "name": "Sara Williams",
+    "email": "sara@gmail.com",
+    "age": "18"
+  }, {
+    "id": "4",
+    "name": "Saeed nabilisy",
+    "email": "saeed555@gmail.com",
+    "age": "37"
+  }, {
+    "id": "5",
+    "name": "Nicolas cage",
+    "email": "nino@gmail.com",
+    "age": "48"
+  }
+]
+}
