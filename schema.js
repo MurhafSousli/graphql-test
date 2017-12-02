@@ -61,6 +61,12 @@ const RootQuery = new GraphQLObjectType({
             resolve(parentValue, args) {
                 return customers.find(customer => customer.id === args.id);
             }
+        },
+        customers: {
+            type: new GraphQLList(CustomerType),
+            resolve(parentValue, args) {
+                return customers;
+            }
         }
     }
 })
